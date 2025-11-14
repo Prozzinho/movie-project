@@ -1,6 +1,7 @@
 <?php
 //import de de l'autoload
 include 'vendor/autoload.php';
+include 'env.php';
 
 //récupération de l'url
 $url = parse_url($_SERVER["REQUEST_URI"]);
