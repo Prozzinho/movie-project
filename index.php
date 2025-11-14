@@ -5,7 +5,7 @@ include 'vendor/autoload.php';
 $url = parse_url($_SERVER["REQUEST_URI"]);
 
 $path = isset($url["path"]) ? $url["path"] : "/";
-
+//router
 switch ($path) {
     case '/':
         echo "Home";
